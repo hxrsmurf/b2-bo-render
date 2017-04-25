@@ -22,18 +22,18 @@ These need to be filled in manually below:
 * File
 * E-mail
 
-####Services Used
+#### Services Used
 
 * BackBlaze
 * Digital Ocean
 * OVH (my dev-machine)
 
-####Used to be services
+#### Used to be services
 
 * Google Compute Engine
 * Google Compute Storage
 
-####To Do
+#### To Do
 
 * Fix hard coding
 * Integration with CumulusClips (possibly FFMPEG)
