@@ -16,26 +16,19 @@ Here are some variables that are hard-coded:
 
 **Note**: This deletes the droplet when you are done.
 
-These need to be filled in manually below:
+Manula stuff like variables and software install:
 
-* B2 Bucket Name
-* File
+* B2 Account Number, B2 Secret Key & Bucket Name
+* What file to download
 * E-mail
 
 #### Services Used
 
 * BackBlaze
-* Digital Ocean
+* Digital Ocean 
 * OVH (my dev-machine)
 
 #### Used to be services
 
 * Google Compute Engine
 * Google Compute Storage
-
-#### To Do
-
-* Fix hard coding
-* Integration with CumulusClips (possibly FFMPEG)
-* Better e-mail
-* Detailed History of project
