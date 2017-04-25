@@ -3,7 +3,11 @@ This is a basic script that I thought of after playing around with [CumulusClips
 
 I will post what I used to do (the script). It was on Google Compute Engine and Google Storage, but the outgoing bandwidth and 64-core VM was eating my money.
 
-**Note**: This deletes the droplet when you are done.
+#### Warnings:
+* This deletes the Droplet when you are done
+* Assumes you have zero (0) Droplets
+* Uses B2 Storage (cost)
+* Uses Digital Ocean Droplets (cost)
 
 Here are some variables that are hard-coded:
 
