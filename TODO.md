@@ -4,3 +4,4 @@
 * Integration with CumulusClips (possibly FFMPEG)
 * Better e-mail
 * Detailed History of project
+* Add old GCE method
