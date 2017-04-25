@@ -49,9 +49,8 @@ if [ "$doStatus" = "active" ]; then
         ssh -o "StrictHostKeyChecking no" root@$doIP apt-get install git -y
         ssh -o "StrictHostKeyChecking no" root@$doIP git clone https://github.com/Backblaze/B2_Command_Line_Tool.git
         echo "cd /root/B2_Command_Line_Tool/ && python setup.py install" | ssh -o "StrictHostKeyChecking no"  root@$doIP
-        ssh -o "StrictHostKeyChecking no" root@$doIP python /root/B2_Command_Line_Tool/setup.py install
         ssh -o "StrictHostKeyChecking no" root@$doIP b2 authorize-account $b2Account $b2Key
-        ssh -o "StrictHostKeyChecking no" root@$doIP b2 list-buckets
+	#ffmpeg -i "bbb-4k.mp4" -threads 64 -vcodec libx264 -vf scale=1920x1080 -vb 10000K -acodec aac -ab 96k -ar 44100 -f mp4 "Output.mp4" 2> bbb-4k.log"
         ssh -o "StrictHostKeyChecking no" root@$doIP  b2 upload-file --threads 0 YOUR-B2-BUCKET bbb-4k.mp4 bbb-4k.mp4
 else
     echo "Failed"
