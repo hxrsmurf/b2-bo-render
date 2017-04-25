@@ -5,8 +5,8 @@ I will post what I used to do (the script). It was on Google Compute Engine and 
 
 #### Warnings:
 
-* This deletes the Droplet when you are done
-* Assumes you have zero (0) Droplets
+* This **deletes** the Droplet when you are done
+* ***Assumes*** you have zero (0) Droplets
 * Uses B2 Storage (cost)
 * Uses Digital Ocean Droplets (cost)
 
