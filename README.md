@@ -12,7 +12,7 @@ I will post what I used to do (the script). It was on Google Compute Engine and 
 
 Here are some variables that are hard-coded:
 
-1. Video file is hard-coded as [Big Buck Bunny](http://bbb3d.renderfarming.net/).
+1. Video file is [Big Buck Bunny 4K60 FPS](http://bbb3d.renderfarming.net/), a large file.
 2. [Digital Ocean](https://www.digitalocean.com) Droplet is 512mb droplet size (their smallest offering).
 3. [Digital Ocean](https://www.digitalocean.com) Droplet Region is nyc2
 4. [Digital Ocean](https://www.digitalocean.com) Droplet Operating System is Debian 8 x64
