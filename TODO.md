@@ -8,8 +8,9 @@
 
 #### To do
 
-* Fix ffmpeg/avconv
+* Lots
 
 #### Finished
 
 * DigitalOcean Droplet creation with variables
+* Added an echo backports to the /etc/apt/sources.list to allow for 'apt-install ffmpeg'
