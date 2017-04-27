@@ -22,7 +22,7 @@ Manual stuff like variables and software install:
 * Backblaze B2 Account Number, B2 Secret Key & Bucket Name
 * What file to download
 * E-mail
-* Install Digital Ocean's [(doctl)](https://www.digitalocean.com/community/tutorials/how-to-use-doctl-the-official-digitalocean-command-line-client)
+* Install Digital Ocean's ([doctl](https://www.digitalocean.com/community/tutorials/how-to-use-doctl-the-official-digitalocean-command-line-client))
 * Setup Digital Ocean SSH key to Droplet
 
 #### Services Used
