@@ -1,16 +1,14 @@
-#### Long Term Goals
+#### Goals
 
-* Integration with CumulusClips (possibly FFMPEG)
+* Integration with [CumulusClips](http://cumulusclips.org/)
 * Better e-mail
-* Detailed History of project
-* Add old GCE method
+* Detailed motivation of the project
 * Configure better columns (allow for multiple droplets)
 
-#### To do
-
-* Lots
-
-#### Finished
+#### Completed Tasks
 
 * DigitalOcean Droplet creation with variables
 * Added an echo backports to the /etc/apt/sources.list to allow for 'apt-get install ffmpeg'
+* Add old GCE method
+* Fixed FFMEG issue (Debian 8)
+* Fixed B2 upload
