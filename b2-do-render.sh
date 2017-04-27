@@ -13,6 +13,7 @@ doRegion="nyc2"
 doSize="64gb"
 doSSHstatus=""
 doStatus=""
+logEmail=""
 sshKey=""
 
 doctl compute droplet create $doName --size $doSize --image $doImage --region $doRegion --ssh-keys $sshKey
@@ -72,7 +73,7 @@ showComplete()
         echo "We started at $doCreateDate"
         doFinishDate="$(date)"
         echo "We finished at $doFinishDate"
-        echo -e "Subject:Droplet Log \n\nCongratulations, the Droplet has been created! \n\nIt can be accessed at this IP address: $doIP. \n\nWe started at $doCreateDate \n\nWe finished at $doFinishDate." | sendmail -v YOUREMAIL
+        echo -e "Subject:Droplet Log \n\nCongratulations, the Droplet has been created! \n\nIt can be accessed at this IP address: $doIP. \n\nWe started at $doCreateDate \n\nWe finished at $doFinishDate." | sendmail -v $logEmail
 }
 
 getDOStatus
