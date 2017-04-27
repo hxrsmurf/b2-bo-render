@@ -9,7 +9,7 @@ sshKey=""
 b2Account=""
 b2Key=""
 doRegion="nyc2"
-doImage="debian-7-x64"
+doImage="debian-8-x64"
 doSize="512mb"
 #doSize="64gb"
 doName="test"
@@ -52,6 +52,7 @@ if [ "$doStatus" = "active" ]; then
         ssh -o "StrictHostKeyChecking no" root@$doIP wget https://bootstrap.pypa.io/get-pip.py
         ssh -o "StrictHostKeyChecking no" root@$doIP python get-pip.py
         ssh -o "StrictHostKeyChecking no" root@$doIP pip install -U pip setuptools
+	ssh -o "StrictHostKeyChecking no" echo "'deb http://ftp.de.debian.org/debian jessie-backports main' >> /etc/apt/sources.list"
         ssh -o "StrictHostKeyChecking no" root@$doIP apt-get update
         ssh -o "StrictHostKeyChecking no" root@$doIP apt-get install git ffmpeg -yf
         ssh -o "StrictHostKeyChecking no" root@$doIP git clone https://github.com/Backblaze/B2_Command_Line_Tool.git
