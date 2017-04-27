@@ -13,4 +13,4 @@
 #### Finished
 
 * DigitalOcean Droplet creation with variables
-* Added an echo backports to the /etc/apt/sources.list to allow for 'apt-install ffmpeg'
+* Added an echo backports to the /etc/apt/sources.list to allow for 'apt-get install ffmpeg'
